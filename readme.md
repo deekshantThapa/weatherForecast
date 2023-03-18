@@ -1,0 +1,1 @@
+<!-- A weather forecast project using Accu-Weather API to search for weather at different cities -->
