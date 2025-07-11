@@ -16,7 +16,7 @@ const getCityDetail = async (city) => {
 // getting weather detail
 const getWeatherDetail = async (id) => {
 
-    const url = 'http://dataservice.accuweather.com/currentconditions/v1/';
+    const url = 'https://dataservice.accuweather.com/currentconditions/v1/';
     const query = `${id}?apikey=${apiKey}`;
 
     const response = await fetch(url + query);
